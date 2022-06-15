@@ -44,10 +44,11 @@ elForm.addEventListener("submit", function(e){
     elSpan2.textContent =  Math.floor(time2(inputVal));
     elSpan3.textContent =  Math.floor(time3(inputVal));
     elSpan4.textContent =  Math.floor(time4(inputVal));
-    elSpan11.textContent =((time(inputVal)- Math.floor(time(inputVal)))*60).toFixed()+"daqiqa";
-    elSpan12.textContent =((time2(inputVal)- Math.floor(time2(inputVal)))*60).toFixed()+"daqiqa";
-    elSpan13.textContent =((time3(inputVal)- Math.floor(time3(inputVal)))*60).toFixed()+"daqiqa";
-    elSpan14.textContent =((time4(inputVal)- Math.floor(time4(inputVal)))*60).toFixed()+"daqiqa";
+    elSpan11.textContent =((time(inputVal)- Math.floor(time(inputVal)))*60).toFixed()+" daqiqa";
+    elSpan12.textContent =((time2(inputVal)- Math.floor(time2(inputVal)))*60).toFixed()+" daqiqa";
+    elSpan13.textContent =((time3(inputVal)- Math.floor(time3(inputVal)))*60).toFixed()+" daqiqa";
+    elSpan14.textContent =((time4(inputVal)- Math.floor(time4(inputVal)))*60).toFixed()+" daqiqa";
+    elTxt.textContent = ""
     elInput.classList.remove("is-invalid")
     elInput.classList.add("is-valid")
 
